@@ -8,9 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
-import { UserPatientComponent } from './user-patient/user-patient.component';
-import { UserDoctorComponent } from './user-doctor/user-doctor.component';
-import { UserAdminComponent } from './user-admin/user-admin.component';
+import { BoardAdminComponent } from './board-admin/board-admin.component';
+import { BoardDoctorComponent } from './board-doctor/board-doctor.component';
+import { BoardPatientComponent } from './board-patient/board-patient.component';
 import { AppRoutingModule } from './app-routing.module';
 // import { authInterceptorProviders } from './_helpers/auth.interceptor';
 
@@ -21,9 +21,9 @@ import { AppRoutingModule } from './app-routing.module';
     RegisterComponent,
     HomeComponent,
     ProfileComponent,
-    UserPatientComponent,
-    UserDoctorComponent,
-    UserAdminComponent
+    BoardAdminComponent,
+    BoardDoctorComponent,
+    BoardPatientComponent
   ],
   imports: [
     BrowserModule,
